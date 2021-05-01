@@ -12,13 +12,14 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  height: 100%;
+  height: 10%;
   background-color: #fff;
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 65px;
+  top: 59px;
   left: 0;
+  z-index:99;
 `;
 
 const LinkItem = styled.li`
