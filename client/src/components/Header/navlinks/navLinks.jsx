@@ -20,9 +20,10 @@ const LinkItem = styled.li`
   color: #222;
   font-weight: 500;
   font-size: 14px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  list-style:none;
+  list-style: none;
   `;
 
 const Link = styled.a`

@@ -1,10 +1,10 @@
-import Nav from "./components/nav/nav.jsx"
-import './App.css';
+import Nav from "./components/nav/nav.jsx";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
     </div>
   );
 }
