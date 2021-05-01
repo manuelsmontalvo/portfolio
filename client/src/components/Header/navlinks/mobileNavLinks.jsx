@@ -12,7 +12,7 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  height: 10%;
+  height: 15%;
   background-color: #fff;
   width: 100%;
   flex-direction: column;
@@ -60,7 +60,7 @@ export default function MobileNavLinks() {
         <LinksWrapper>
           <Marginer />
           <LinkItem>
-            <Link href="#">About Me</Link>
+            <Link href="#about-me">About Me</Link>
           </LinkItem>
           <LinkItem>
             <Link href="#">Projects</Link>

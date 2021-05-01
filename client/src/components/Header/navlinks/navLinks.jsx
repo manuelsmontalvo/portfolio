@@ -43,7 +43,7 @@ export default function NavLinks() {
     <NavLinkContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link href="#">About Me</Link>
+          <Link href="#about-me">About Me</Link>
         </LinkItem>
         <LinkItem>
           <Link href="#">Projects</Link>

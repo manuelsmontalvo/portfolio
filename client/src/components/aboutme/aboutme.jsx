@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
+import Bio from "./bio";
 
 const Splash = styled.div`
   display: flex;
@@ -16,7 +17,7 @@ const WhoIAm = styled.h1`
   margin: 0;
   color: #d2a5b0;
   font-weight: 500;
-  font-family: "open sans"
+  font-family: "open sans";
 `;
 
 const Name = styled.h1`
@@ -57,11 +58,14 @@ const Typing = styled.h1`
 
 export default function AboutMe() {
   return (
+    <div>
       <Splash>
         <WhoIAm>
           Hello, I'm <Name>Manuel Santos Montalvo</Name>
           <Typing>Software Engineer.</Typing>
         </WhoIAm>
       </Splash>
+      <Bio />
+    </div>
   );
 }
