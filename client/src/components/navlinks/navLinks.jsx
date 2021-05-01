@@ -23,18 +23,18 @@ const LinkItem = styled.li`
   align-items: center;
   justify-content: center;
   list-style:none;
-  border-bottom: 2px solid transparent;
-  transition: all 220ms ease-in-out;
-
-  &:hover {
-    border-bottom: 2px solid #7eca9c;
-  }
-`;
+  `;
 
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
   font-size: inherit;
+  border-bottom: 2px solid transparent;
+  transition: all 220ms ease-in-out;
+  
+  &:hover {
+    border-bottom: 2px solid #7eca9c;
+  }
 `;
 
 export default function NavLinks() {
