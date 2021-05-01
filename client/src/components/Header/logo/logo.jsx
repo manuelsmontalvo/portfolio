@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ManuelMontalvoImg from "../../assets/logo.PNG";
+import ManuelMontalvoImg from "../../../assets/logo.PNG";
 
 const LogoWrapper = styled.div`
   display: flex;
@@ -18,7 +18,7 @@ const LogoImg = styled.div`
 `;
 
 const LogoText = styled.h2`
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
   margin-left: 4px;
   color: #222;
@@ -26,9 +26,9 @@ const LogoText = styled.h2`
 `;
 
 const LogoSubText = styled.p`
-  font-size: 8px;
+  font-size: 12px;
   margin: 0;
-  margin-bottom: -3px;
+  margin-bottom: -2px;
   margin-left: 4px;
   color: #222;
   font-weight: 300;
