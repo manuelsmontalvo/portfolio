@@ -21,7 +21,7 @@ const LogoText = styled.h2`
   font-size: 20px;
   margin: 0;
   margin-left: 4px;
-  color: #222;
+  color: #454241;
   font-weight: 500;
 `;
 
@@ -30,8 +30,8 @@ const LogoSubText = styled.p`
   margin: 0;
   margin-bottom: -2px;
   margin-left: 4px;
-  color: #222;
-  font-weight: 300;
+  color: #454241;
+  font-weight: 350;
 `;
 
 export default function logo(props) {
@@ -40,7 +40,7 @@ export default function logo(props) {
       <LogoImg>
         <img src={ManuelMontalvoImg} alt="Manuel Montalvo" />
       </LogoImg>
-      <LogoText>Manuel Santos Montalvo</LogoText>
+      <LogoText>Manuel Montalvo</LogoText>
       <LogoSubText>//Software Engineer</LogoSubText>
     </LogoWrapper>
   );

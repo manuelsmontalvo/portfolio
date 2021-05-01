@@ -17,7 +17,7 @@ const LinksWrapper = styled.ul`
 const LinkItem = styled.li`
   height: 100%;
   padding: 0 1.1em;
-  color: #222;
+  color: #454241;
   font-weight: 500;
   font-size: 14px;
   display: flex;
@@ -34,7 +34,7 @@ const Link = styled.a`
   transition: all 220ms ease-in-out;
   
   &:hover {
-    border-bottom: 2px solid #7eca9c;
+    border-bottom: 2px solid #996063;
   }
 `;
 
