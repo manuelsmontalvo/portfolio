@@ -11,7 +11,7 @@ const AboutContainer = styled.div`
   width: 100%;
   height: 600px;
   margin-top: 5px;
-  padding: 100px;
+  padding: 3%;
   background-color: #f8f0dc;
 `;
 
