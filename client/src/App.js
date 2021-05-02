@@ -4,6 +4,7 @@ import { Bio } from "./components/aboutme/bio";
 import Footer from "./components/footer/footer";
 import "./App.css";
 import Project from "./components/projects/project";
+import ContactMe from "./components/contactme/contactme";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Bio />
       <Project />
+      <ContactMe/>
       <Footer />
     </div>
   );
