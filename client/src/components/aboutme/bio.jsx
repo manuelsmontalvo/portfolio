@@ -10,13 +10,13 @@ const AboutContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 650px;
   padding: 10% 5% 30%;
   background-color: #f8f0dc;
 `;
 
 const Title = styled.h2`
-  margin: 10px 0 20px 0;
+  margin: 20px 0 25px 0;
   color: #454241;
   font-size: 35px;
   font-weight: 600;
@@ -32,10 +32,18 @@ const About = styled.p`
   font-family: "open sans";
 `;
 
+const Me = styled.img`
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+`;
+
 export function Bio() {
   return (
     <AppearOnScroll>
       <AboutContainer id="about-me">
+        <Me src="https://pbs.twimg.com/profile_images/1373402812344897537/yL-6E1PO_400x400.jpg" alt="Manuel Montalvo"/>
         <Title>About Me</Title>
         <About>
           I'm an enthusiastic and determined problem solver who strives to put

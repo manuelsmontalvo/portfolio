@@ -12,13 +12,13 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  position: absolute;
+  position: fixed;
   height: fit-content;
   background-color: #fff;
   width: 100%;
   flex-direction: column;
-  position: fixed;
-  top: 59px;
+  position: absolute;
+  top: 55px;
   left: 0;
   z-index:99;
 `;
