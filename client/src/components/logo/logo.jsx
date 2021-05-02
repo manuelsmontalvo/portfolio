@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ManuelMontalvoImg from "../../../assets/logo.PNG";
+import ManuelMontalvoImg from "../../assets/logo.PNG";
 
 const LogoWrapper = styled.div`
   display: flex;
@@ -25,7 +25,7 @@ const LogoText = styled.h2`
   font-weight: 500;
 `;
 
-export function Logo(props) {
+export default function Logo(props) {
   return (
     <LogoWrapper>
       <LogoImg>

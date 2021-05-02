@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Logo } from "../logo/logo";
+import Logo from "../logo/logo";
 import { NavLinks } from "../navlinks/navLinks";
 import { useMediaQuery } from "react-responsive";
 import { DeviceSize } from "../responsive";
