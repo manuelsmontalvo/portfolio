@@ -5,7 +5,7 @@ import {Bio} from "./bio";
 
 const Splash = styled.div`
   display: flex;
-  min-width: 1010px; // No default x-axis scroll
+  min-width: 100vw; // No default x-axis scroll
   height: 600px;
   justify-content: center;
   align-items: center;
