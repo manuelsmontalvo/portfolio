@@ -8,7 +8,7 @@ export default function AppearOnScroll(props) {
   useEffect(() => {
     function handleScroll() {
       const yPos = window.scrollY;
-      const isScrollingUp = yPos + 1 > lastYPos;
+      const isScrollingUp = yPos > lastYPos;
 
       setShouldActionShow(isScrollingUp)
       setLastYPos(yPos)
