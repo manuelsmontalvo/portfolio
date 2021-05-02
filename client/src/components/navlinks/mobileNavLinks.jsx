@@ -61,16 +61,16 @@ export function MobileNavLinks() {
         <LinksWrapper>
           <Marginer />
           <LinkItem>
-            <Link href="#about-me">About Me</Link>
+            <Link onClick={() => setOpen(!isOpen)} href="#about-me">About Me</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Projects</Link>
+            <Link onClick={() => setOpen(!isOpen)} href="#">Projects</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Resume</Link>
+            <Link onClick={() => setOpen(!isOpen)} href="#">Resume</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Contact Me</Link>
+            <Link onClick={() => setOpen(!isOpen)} href="#">Contact Me</Link>
           </LinkItem>
         </LinksWrapper>
       )}
