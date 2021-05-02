@@ -10,12 +10,12 @@ const AboutContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 650px;
-  padding: 10% 5% 30%;
+  padding: 6% 5% 30%;
   background-color: #f8f0dc;
 `;
 
 const Title = styled.h2`
-  margin: 20px 0 25px 0;
+  margin: 10px 0 25px 0;
   color: #454241;
   font-size: 35px;
   font-weight: 600;
@@ -45,7 +45,6 @@ const Me = styled.img`
   width: 150px;
   border-radius: 50%;
   margin-bottom: 5px;
-  margin-top: 15px;
 `;
 
 export function Bio() {
