@@ -1,7 +1,6 @@
 import React from "react";
 import AppearOnScroll from "../../animation/appearOnScroll";
 import styled from "styled-components";
-import { DeviceSize } from "../responsive";
 
 const AboutContainer = styled.div`
   display: block;
@@ -47,6 +46,7 @@ const Me = styled.img`
   width: 150px;
   border-radius: 50%;
   margin-bottom: 5px;
+  margin-top: 15px;
 `;
 
 export function Bio() {

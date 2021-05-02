@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { MenuToggle } from "./menuToggle";
+import { keyframes } from "styled-components";
+
+const open = keyframes`
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 140px;
+  }
+`;
 
 const NavLinkContainer = styled.div`
   height: 100%;
@@ -13,7 +23,6 @@ const LinksWrapper = styled.ul`
   padding: 0;
   display: flex;
   position: fixed;
-  height: 150;
   width: 100%;
   background-color: #fff;
   flex-direction: column;
@@ -21,6 +30,8 @@ const LinksWrapper = styled.ul`
   top: 60px;
   left: 0;
   z-index:99;
+  overflow:hidden;
+  animation: ${open} 0.5s ease-in;
 `;
 
 const LinkItem = styled.li`
@@ -49,6 +60,7 @@ const Link = styled.a`
 const Marginer = styled.div`
   height: 1em;
 `;
+
 
 export function MobileNavLinks() {
   const [isOpen, setOpen] = useState(false);

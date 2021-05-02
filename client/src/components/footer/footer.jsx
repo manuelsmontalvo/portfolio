@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {FooterLinks} from "./footerLinks"
 
 const FooterContainer = styled.div`
   display: flex;
@@ -13,9 +14,10 @@ const FooterContainer = styled.div`
   z-index: 999;
 `;
 
+
 export function Footer() {
   return <FooterContainer>
-
+<FooterLinks/>
   </FooterContainer>;
 }
 
