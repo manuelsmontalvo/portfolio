@@ -10,6 +10,10 @@ const Splash = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #454241;
+
+  @media (max-width: 778px) {
+    height: 350px;
+  }
 `;
 
 const WhoIAm = styled.h1`
@@ -25,6 +29,10 @@ const Name = styled.h1`
   margin: 0;
   color: #f8f0dc;
   font-weight: 500;
+
+  @media (max-width: 778px) {
+    font-size: 25px;
+  }
 `;
 
 const Blink = keyframes`
@@ -54,17 +62,21 @@ const Typing = styled.h1`
     border-right: 2px solid #d2a5b0;
     animation: ${Blink} 0.5s infinite ease;
   }
+
+  @media (max-width: 778px) {
+    font-size: 20px;
+  }
 `;
 
 export function AboutMe() {
   return (
-      <Splash>
-        <WhoIAm>
-          Hello, I'm <Name>Manuel Santos Montalvo</Name>
-          <Typing>Software Engineer.</Typing>
-        </WhoIAm>
-      </Splash>)
-
+    <Splash>
+      <WhoIAm>
+        Hello, I'm <Name>Manuel Santos Montalvo</Name>
+        <Typing>Software Engineer.</Typing>
+      </WhoIAm>
+    </Splash>
+  );
 }
 
-export default AboutMe
+export default AboutMe;

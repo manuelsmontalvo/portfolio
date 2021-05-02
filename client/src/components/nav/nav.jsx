@@ -9,7 +9,6 @@ import { MobileNavLinks } from "../navlinks/mobileNavLinks";
 const NavBarContainer = styled.div`
   display: flex;
   position: fixed;
-  box-sizing: border-box;
   width: 100%;
   height: 60px;
   padding: 0 15px;

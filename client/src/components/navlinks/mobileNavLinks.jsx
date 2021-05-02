@@ -13,12 +13,12 @@ const LinksWrapper = styled.ul`
   padding: 0;
   display: flex;
   position: fixed;
-  height: fit-content;
-  background-color: #fff;
+  height: 150;
   width: 100%;
+  background-color: #fff;
   flex-direction: column;
   position: absolute;
-  top: 55px;
+  top: 60px;
   left: 0;
   z-index:99;
 `;
@@ -31,7 +31,6 @@ const LinkItem = styled.li`
   font-weight: 500;
   font-size: 16px;
   list-style: none;
-
   margin-bottom:10px;
 `;
 

@@ -1,6 +1,7 @@
 import React from "react";
 import AppearOnScroll from "../../animation/appearOnScroll";
 import styled from "styled-components";
+import { DeviceSize } from "../responsive";
 
 const AboutContainer = styled.div`
   display: block;
@@ -21,6 +22,11 @@ const Title = styled.h2`
   font-size: 35px;
   font-weight: 600;
   font-family: "open sans";
+
+  @media (max-width: 778px) {
+    font-size: 25px;
+    margin: 25px 0 35px 0;
+  }
 `;
 
 const About = styled.p`
@@ -30,6 +36,10 @@ const About = styled.p`
   font-size: 35px;
   font-weight: 500;
   font-family: "open sans";
+
+  @media (max-width: 778px) {
+    font-size: 20px;
+  }
 `;
 
 const Me = styled.img`
@@ -43,7 +53,10 @@ export function Bio() {
   return (
     <AppearOnScroll>
       <AboutContainer id="about-me">
-        <Me src="https://pbs.twimg.com/profile_images/1373402812344897537/yL-6E1PO_400x400.jpg" alt="Manuel Montalvo"/>
+        <Me
+          src="https://pbs.twimg.com/profile_images/1373402812344897537/yL-6E1PO_400x400.jpg"
+          alt="Manuel Montalvo"
+        />
         <Title>About Me</Title>
         <About>
           I'm an enthusiastic and determined problem solver who strives to put

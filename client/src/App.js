@@ -1,6 +1,7 @@
-import AboutMe  from "./components/aboutme/aboutme";
+import AboutMe from "./components/aboutme/aboutme";
 import Nav from "./components/nav/nav";
-import {Bio} from "./components/aboutme/bio";
+import { Bio } from "./components/aboutme/bio";
+import Footer from "./components/footer/footer";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Nav />
       <AboutMe />
-      <Bio/>
+      <Bio />
+      <Footer />
     </div>
   );
 }
