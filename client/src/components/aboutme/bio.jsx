@@ -41,5 +41,3 @@ export function Bio() {
     </AppearOnScroll>
   );
 }
-
-export default Bio

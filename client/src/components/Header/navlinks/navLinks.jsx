@@ -58,5 +58,3 @@ export function NavLinks() {
     </NavLinkContainer>
   );
 }
-
-export default NavLinks

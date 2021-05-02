@@ -55,5 +55,3 @@ export function MenuToggle({ toggle, isOpen }) {
     </Button>
   );
 }
-
-export default MenuToggle

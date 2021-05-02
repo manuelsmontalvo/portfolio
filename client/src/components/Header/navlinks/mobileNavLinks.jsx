@@ -76,5 +76,3 @@ export function MobileNavLinks() {
     </NavLinkContainer>
   );
 }
-
-export default MobileNavLinks

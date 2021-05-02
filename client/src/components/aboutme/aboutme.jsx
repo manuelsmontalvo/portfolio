@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
-import Bio from "./bio";
+import {Bio} from "./bio";
 
 const Splash = styled.div`
   display: flex;

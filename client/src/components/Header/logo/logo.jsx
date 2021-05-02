@@ -25,7 +25,7 @@ const LogoText = styled.h2`
   font-weight: 500;
 `;
 
-export function logo(props) {
+export function Logo(props) {
   return (
     <LogoWrapper>
       <LogoImg>
@@ -35,5 +35,3 @@ export function logo(props) {
     </LogoWrapper>
   );
 }
-
-export default logo
