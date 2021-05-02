@@ -14,7 +14,7 @@ const AboutContainer = styled.div`
 
 const Title = styled.h2`
   font-size: 45px;
-  margin-top: 8%;
+  margin-top: 3%;
   color: #454241;
   font-weight: 700;
   font-family: "Open Sans";
