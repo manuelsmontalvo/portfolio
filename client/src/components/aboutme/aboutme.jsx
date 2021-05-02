@@ -70,4 +70,3 @@ export function AboutMe() {
   );
 }
 
-export default AboutMe
