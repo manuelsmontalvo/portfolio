@@ -29,7 +29,7 @@ const RightSection = styled.div`
   display: flex;
 `;
 
-export default function Nav() {
+export function Nav() {
   const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
 
   return (
@@ -45,3 +45,5 @@ export default function Nav() {
     </NavBarContainer>
   );
 }
+
+export default Nav
