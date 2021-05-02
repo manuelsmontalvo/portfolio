@@ -56,7 +56,7 @@ const Typing = styled.h1`
   }
 `;
 
-function AboutMe() {
+export function AboutMe() {
   return (
     <div>
       <Splash>
