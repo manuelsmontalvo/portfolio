@@ -1,7 +1,6 @@
 import React from "react";
 import Projectcard from "./projectcard";
 import styled from "styled-components";
-import AppearOnScroll from "../../animation/appearOnScroll";
 
 const ProjectContainer = styled.div`
   display: flex;
