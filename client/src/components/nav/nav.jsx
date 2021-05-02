@@ -7,8 +7,7 @@ import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "../navlinks/mobileNavLinks";
 
 const NavBarContainer = styled.div`
-  /* width: 100%; */
-  min-width: 960px; // No default x-axis scroll
+  min-width:990px;
   height: 60px;
   box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
   display: flex;

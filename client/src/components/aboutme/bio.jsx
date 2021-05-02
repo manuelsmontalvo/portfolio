@@ -5,7 +5,7 @@ import styled from "styled-components";
 const AboutContainer = styled.div`
   display: flex;
   flex-flow: column;
-  min-width: 1010px; // No default x-axis scroll
+  min-width:990px;
   height: 800px;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,7 @@ const About = styled.p`
   width: 55%;
   font-family: "Open Sans";
   line-height: 75px;
+  text-align: center;
 `;
 
 export function Bio() {
@@ -35,7 +36,7 @@ export function Bio() {
       <AboutContainer id="about-me">
         <Title>About Me</Title>
         <About>
-        I'm an enthusiastic and determined problem solver who strives to put nothing but my best into every endeavor I'm involved in. I desire to develop unique solutions based on strategic planning and my proven ingenuity
+        I'm an enthusiastic and determined problem solver who strives to put nothing but my best into every endeavor I'm involved in. I desire to develop unique solutions based on strategic planning and my proven ingenuity.
         </About>
       </AboutContainer>
     </AppearOnScroll>
