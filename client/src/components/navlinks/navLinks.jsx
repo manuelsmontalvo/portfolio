@@ -46,7 +46,7 @@ export function NavLinks() {
           <Link href="#about-me">About Me</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Projects</Link>
+          <Link href="#projects">Projects</Link>
         </LinkItem>
         <LinkItem>
           <Link href="#">Resume</Link>

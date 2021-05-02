@@ -75,7 +75,7 @@ export function MobileNavLinks() {
             <Link onClick={() => setOpen(!isOpen)} href="#about-me">About Me</Link>
           </LinkItem>
           <LinkItem>
-            <Link onClick={() => setOpen(!isOpen)} href="#">Projects</Link>
+            <Link onClick={() => setOpen(!isOpen)} href="#projects">Projects</Link>
           </LinkItem>
           <LinkItem>
             <Link onClick={() => setOpen(!isOpen)} href="#">Resume</Link>
