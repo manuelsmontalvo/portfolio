@@ -51,20 +51,18 @@ const Me = styled.img`
 
 export function Bio() {
   return (
-    <AppearOnScroll>
-      <AboutContainer id="about-me">
-        <Me
-          src="https://pbs.twimg.com/profile_images/1373402812344897537/yL-6E1PO_400x400.jpg"
-          alt="Manuel Montalvo"
-        />
-        <Title>About Me</Title>
-        <About>
-          I'm an enthusiastic and determined problem solver who strives to put
-          nothing but my best into every endeavor I'm involved in. I desire to
-          develop unique solutions based on strategic planning and my proven
-          ingenuity.
-        </About>
-      </AboutContainer>
-    </AppearOnScroll>
+    <AboutContainer id="about-me">
+      <Me
+        src="https://pbs.twimg.com/profile_images/1373402812344897537/yL-6E1PO_400x400.jpg"
+        alt="Manuel Montalvo"
+      />
+      <Title>About Me</Title>
+      <About>
+        I'm an enthusiastic and determined problem solver who strives to put
+        nothing but my best into every endeavor I'm involved in. I desire to
+        develop unique solutions based on strategic planning and my proven
+        ingenuity.
+      </About>
+    </AboutContainer>
   );
 }
