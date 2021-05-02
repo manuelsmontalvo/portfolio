@@ -1,5 +1,4 @@
 import React from "react";
-import AppearOnScroll from "../../animation/appearOnScroll";
 import styled from "styled-components";
 
 const AboutContainer = styled.div`
