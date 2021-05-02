@@ -38,7 +38,7 @@ const Link = styled.a`
   }
 `;
 
-export default function NavLinks() {
+export function NavLinks() {
   return (
     <NavLinkContainer>
       <LinksWrapper>
@@ -58,3 +58,5 @@ export default function NavLinks() {
     </NavLinkContainer>
   );
 }
+
+export default NavLinks

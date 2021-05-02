@@ -50,7 +50,7 @@ const Marginer = styled.div`
   height: 1em;
 `;
 
-export default function MobileNavLinks() {
+export function MobileNavLinks() {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -76,3 +76,5 @@ export default function MobileNavLinks() {
     </NavLinkContainer>
   );
 }
+
+export default MobileNavLinks

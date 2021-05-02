@@ -29,7 +29,7 @@ const About = styled.p`
   line-height: 75px;
 `;
 
-export default function Bio() {
+export function Bio() {
   return (
     <AppearOnScroll>
       <AboutContainer id="about-me">
@@ -41,3 +41,5 @@ export default function Bio() {
     </AppearOnScroll>
   );
 }
+
+export default Bio
