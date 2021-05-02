@@ -5,8 +5,11 @@ import styled from "styled-components";
 const AboutContainer = styled.div`
   display: flex;
   flex-flow: column;
-  min-width: 100vw;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 100px;
   height: 600px;
+  margin-top:5px;
   justify-content: center;
   align-items: center;
   background-color: #f8f0dc;
@@ -14,7 +17,7 @@ const AboutContainer = styled.div`
 
 const Title = styled.h2`
   font-size: 35px;
-  margin: 0;
+  margin: 10px 0 20px 0;
   font-weight: 600;
   font-family: "open sans";
   color: #454241;
@@ -26,7 +29,6 @@ const About = styled.p`
   font-weight: 500;
   font-family: "open sans";
   color: #454241;
-  padding: 5px;
   text-align: center;
 `;
 

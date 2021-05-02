@@ -4,7 +4,8 @@ import { keyframes } from "styled-components";
 
 const Splash = styled.div`
   display: flex;
-  min-width: 100vw;
+  box-sizing: border-box;
+  width: 100%;
   height: 600px;
   justify-content: center;
   align-items: center;
