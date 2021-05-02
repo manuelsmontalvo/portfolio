@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Pdf from "../../assets/Manuel Montalvo.pdf"
 
 const NavLinkContainer = styled.div`
   height: 100%;
@@ -49,10 +50,10 @@ export function NavLinks() {
           <Link href="#projects">Projects</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Resume</Link>
+          <Link href={Pdf} target="_blank" rel="noreferrer">Resume</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Contact Me</Link>
+          <Link href="#contact-me">Contact Me</Link>
         </LinkItem>
       </LinksWrapper>
     </NavLinkContainer>

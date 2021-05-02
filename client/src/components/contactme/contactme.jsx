@@ -19,7 +19,7 @@ const ContactMeContainer = styled.div`
 
 export default function ContactMe() {
   return (
-    <ContactMeContainer>
+    <ContactMeContainer id="contact-me">
       <ContactUs/>
     </ContactMeContainer>
   )

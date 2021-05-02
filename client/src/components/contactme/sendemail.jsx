@@ -199,7 +199,7 @@ export default function ContactUs() {
   }
 
   return (
-    <Form onSubmit={sendEmail} id="contact-me">
+    <Form onSubmit={sendEmail}>
       <Title>Contact Me</Title>
       <Subject type="text" name="subject" placeholder="Subject..." />
       <Name type="text" name="name" placeholder="Name..." />
