@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
-import {Bio} from "./bio";
 
 const Splash = styled.div`
   display: flex;
-  min-width:990px;
+  min-width: 100vw;
   height: 600px;
   justify-content: center;
   align-items: center;
@@ -58,16 +57,13 @@ const Typing = styled.h1`
 
 export function AboutMe() {
   return (
-    <div>
       <Splash>
         <WhoIAm>
           Hello, I'm <Name>Manuel Santos Montalvo</Name>
           <Typing>Software Engineer.</Typing>
         </WhoIAm>
-      </Splash>
-      <Bio />
-    </div>
-  );
+      </Splash>)
+
 }
 
 export default AboutMe

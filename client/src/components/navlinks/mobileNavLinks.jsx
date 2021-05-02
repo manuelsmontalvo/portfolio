@@ -12,7 +12,8 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  height: 15%;
+  position: absolute;
+  height: fit-content;
   background-color: #fff;
   width: 100%;
   flex-direction: column;

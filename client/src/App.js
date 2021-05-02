@@ -1,5 +1,6 @@
 import AboutMe  from "./components/aboutme/aboutme";
 import Nav from "./components/nav/nav";
+import {Bio} from "./components/aboutme/bio";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Nav />
       <AboutMe />
+      <Bio/>
     </div>
   );
 }

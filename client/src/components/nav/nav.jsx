@@ -7,25 +7,23 @@ import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "../navlinks/mobileNavLinks";
 
 const NavBarContainer = styled.div`
-  min-width:990px;
+  width: 100vw;
   height: 60px;
   box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 1.5em;
   background-color: #f8f0dc;
 `;
 
 const LeftSection = styled.div`
   display: flex;
+  justify-content: flex-start;
 `;
 
-const MiddleSection = styled.div`
-  display: flex;
-  flex: 2;
-`;
 const RightSection = styled.div`
   display: flex;
+  justify-content: flex-end;
 `;
 
 export function Nav() {
@@ -36,7 +34,6 @@ export function Nav() {
       <LeftSection>
         <Logo />
       </LeftSection>
-      <MiddleSection />
       <RightSection>
         {!isMobile && <NavLinks />}
         {isMobile && <MobileNavLinks />}
@@ -45,4 +42,4 @@ export function Nav() {
   );
 }
 
-export default Nav
+export default Nav;

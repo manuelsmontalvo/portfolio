@@ -16,7 +16,7 @@ const LinksWrapper = styled.ul`
 
 const LinkItem = styled.li`
   height: 100%;
-  padding: 0 1.1em;
+  padding: 0 .9em;
   color: #454241;
   font-weight: 500;
   font-size: 14px;
