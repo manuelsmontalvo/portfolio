@@ -3,15 +3,15 @@ import AppearOnScroll from "../../animation/appearOnScroll";
 import styled from "styled-components";
 
 const AboutContainer = styled.div`
-  display: flex;
+  display: block;
   flex-flow: column;
   box-sizing: border-box;
+  position: relative;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 600px;
-  margin-top: 5px;
-  padding: 3%;
+  height: 300px;
+  padding: 10% 5% 30%;
   background-color: #f8f0dc;
 `;
 
