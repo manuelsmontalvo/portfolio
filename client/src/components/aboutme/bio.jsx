@@ -35,7 +35,7 @@ export default function Bio() {
       <AboutContainer id="about-me">
         <Title>About Me</Title>
         <About>
-        I'm an enthusiastic and determined problem solver who strives to put nothing but his best into every endeavor he is involved. I desire to develop unique solutions based on strategic planning and my proven ingenuity
+        I'm an enthusiastic and determined problem solver who strives to put nothing but my best into every endeavor I'm involved in. I desire to develop unique solutions based on strategic planning and my proven ingenuity
         </About>
       </AboutContainer>
     </AppearOnScroll>
