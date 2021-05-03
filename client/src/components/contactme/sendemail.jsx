@@ -137,7 +137,7 @@ const Button = styled.input`
   border-radius: 40px;
 
   &:hover {
-    background: #fff;
+    background: #454241;
     color: #996063;
   }
   &:before,
