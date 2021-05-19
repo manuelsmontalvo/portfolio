@@ -43,6 +43,13 @@ export default function Project() {
         <Title>Projects</Title>
         <MainContainer>
           <Projectcard
+            Site="https://elegant-allen-e97c72.netlify.app/"
+            Repo="https://github.com/manuelsmontalvo/github-finder"
+            Title="GitHub Finder"
+            Description="This is a Github profile application made with Reactjs using the GitHub API. It utilizes context hooks for state management "
+            Img="https://imgur.com/vCrO26u"
+          />
+          <Projectcard
             Site="https://collaboreatery.netlify.app/"
             Repo="https://github.com/manuelsmontalvo/collaboreatery"
             Title="Collaboreatery"
