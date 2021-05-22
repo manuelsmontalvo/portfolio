@@ -47,21 +47,21 @@ export default function Project() {
           Site='https://elegant-allen-e97c72.netlify.app/'
           Repo='https://github.com/manuelsmontalvo/github-finder'
           Title='GitHub Finder'
-          Description='This is a Github profile application made with Reactjs using the GitHub API. It utilizes context hooks for state management '
+          Description='This project is a Github profile search application made with ReactJS using the GitHub API. It utilizes context hooks for state management and follows React architecture best practices.'
           Img='https://imgur.com/vCrO26u.png'
         />
         <Projectcard
           Site='https://collaboreatery.netlify.app/'
           Repo='https://github.com/manuelsmontalvo/collaboreatery'
           Title='Collaboreatery'
-          Description='Collboreatery is community fed database for restaraunts based price, location, and cuisine. This apllication was made with React, Express, MongoDB, and NodeJS.'
+          Description='Collboreatery is a community-based directory for restaurants focusing on price, location, and cuisine. This application is made with ReactJS, Express, MongoDB, and NodeJS.'
           Img='https://imgur.com/SKioqik.png'
         />
         <Projectcard
           Site='https://www.manuelsmontalvo.com/'
           Repo='https://github.com/manuelsmontalvo/portfolio'
           Title='Portfolio Site'
-          Description='This portfolio site was made with React, Styled components, Framer Motion, and other animations made from scratch.'
+          Description='This portfolio site utilizes ReactJS, Styled components, Framer Motion, and other animation and CSS libraries.'
           Img='https://imgur.com/J4Dtgtd.png'
         />
       </MainContainer>
