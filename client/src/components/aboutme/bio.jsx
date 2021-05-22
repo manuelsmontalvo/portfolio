@@ -41,8 +41,8 @@ const About = styled.p`
 `;
 
 const Me = styled.img`
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   margin-bottom: 5px;
 `;
