@@ -51,18 +51,18 @@ export default function Project() {
           Img='https://imgur.com/vCrO26u.png'
         />
         <Projectcard
+          Site='https://mighty-castle-20773.herokuapp.com/'
+          Repo='https://github.com/manuelsmontalvo/contact-manager'
+          Title='Contact Manager'
+          Description='A contact manager application utilizes ReactJS, useContext for state management, NodeJS, MongoDB, and Express'
+          Img='https://imgur.com/w1T3IEK'
+        />
+        <Projectcard
           Site='https://collaboreatery.netlify.app/'
           Repo='https://github.com/manuelsmontalvo/collaboreatery'
           Title='Collaboreatery'
           Description='Collboreatery is a community-based directory for restaurants focusing on price, location, and cuisine. This application is made with ReactJS, Express, MongoDB, and NodeJS.'
           Img='https://imgur.com/SKioqik.png'
-        />
-        <Projectcard
-          Site='https://www.manuelsmontalvo.com/'
-          Repo='https://github.com/manuelsmontalvo/portfolio'
-          Title='Portfolio Site'
-          Description='This portfolio site utilizes ReactJS, Styled components, Framer Motion, and other animation and CSS libraries.'
-          Img='https://imgur.com/J4Dtgtd.png'
         />
       </MainContainer>
     </ProjectContainer>
