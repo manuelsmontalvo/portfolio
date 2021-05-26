@@ -47,14 +47,14 @@ export default function Project() {
           Site='https://elegant-allen-e97c72.netlify.app/'
           Repo='https://github.com/manuelsmontalvo/github-finder'
           Title='GitHub Finder'
-          Description='This project is a Github profile search application made with ReactJS using the GitHub API. It utilizes context hooks for state management and follows React architecture best practices.'
+          Description='This project is a Github profile application made with ReactJS using the GitHub API. It utilizes context hooks for state management.'
           Img='https://imgur.com/vCrO26u.png'
         />
         <Projectcard
           Site='https://mighty-castle-20773.herokuapp.com/'
           Repo='https://github.com/manuelsmontalvo/contact-manager'
           Title='Contact Manager'
-          Description='A contact manager application utilizes ReactJS, useContext for state management, NodeJS, MongoDB, and Express'
+          Description='A contact manager application utilizing ReactJS, useContext for state management, NodeJS, MongoDB, and Express'
           Img='https://imgur.com/w1T3IEK.png'
         />
         <Projectcard
