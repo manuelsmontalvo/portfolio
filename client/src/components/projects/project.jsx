@@ -55,7 +55,7 @@ export default function Project() {
           Repo='https://github.com/manuelsmontalvo/contact-manager'
           Title='Contact Manager'
           Description='A contact manager application utilizes ReactJS, useContext for state management, NodeJS, MongoDB, and Express'
-          Img='https://imgur.com/w1T3IEK'
+          Img='https://imgur.com/w1T3IEK.png'
         />
         <Projectcard
           Site='https://collaboreatery.netlify.app/'
