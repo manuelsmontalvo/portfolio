@@ -1,0 +1,28 @@
+{
+  "projects": [
+    { 
+      "key": 1,
+    "site": "https://elegant-allen-e97c72.netlify.app/",
+    "repo": "https://github.com/manuelsmontalvo/github-finder",
+    "title": "GitHub Finder",
+    "description": "This project is a Github profile application made with ReactJS using the GitHub API. It utilizes context hooks for state management",
+    "img": "https://imgur.com/vCrO26u.png"
+  },
+  {
+    "key": 2,
+    "site": "https://mighty-castle-20773.herokuapp.com/",
+    "repo": "https://github.com/manuelsmontalvo/contact-manager",
+    "title": "Contact Manager",
+    "description": "A contact manager application utilizing ReactJS, useContext for state management, NodeJS, MongoDB, and Express",
+    "img": "https://imgur.com/w1T3IEK.png"
+  },
+  {
+    "key": 3,
+    "site": "https://60fdb80021266b000768cd2f--unruffled-mestorf-e24a05.netlify.app/",
+    "repo": "https://github.com/manuelsmontalvo/IT-Logger",
+    "title": "IT-Logger",
+    "description": "Issue ticket logger that utilizes ReactJS, Node, Redux, Axios, Materialize CSS, Express, Mongoose",
+    "img": "https://imgur.com/I5m5i0v.png"
+    }
+  ]
+}
