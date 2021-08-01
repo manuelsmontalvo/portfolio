@@ -1,15 +1,12 @@
-import React from 'react'
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-
-
-
+import React from "react";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Hero />
-      <Projects/>
+      <Projects />
     </div>
   );
 }
