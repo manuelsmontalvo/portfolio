@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
-    "postcss": "^7"
+    "postcss": "^7",
+    "stylelint-config-recommended": "^5.0.0"
   }
 }

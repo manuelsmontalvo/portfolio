@@ -4,9 +4,9 @@ import Me from "../assets/me.JPG";
 
 function Hero() {
   return (
-    <div style={{bgColor}} className="relative  overflow-hidden">
+    <div className="relative  overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div style={{bgColor}} className="relative  z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <div className="relative  z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-indigo-400 transform translate-x-1/2"
             fill="currentColor"
@@ -14,10 +14,10 @@ function Hero() {
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <polygon style={{bgColor}}  points="50,0 100,0 50,100 0,100" />
+            <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
 
-          <div style={{ bgColor }} >
+          <div>
             <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
               <nav className="relative flex items-center justify-between sm:h-10  lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -28,8 +28,8 @@ function Hero() {
                     </a>
                   </div>
                 </div>
-                <div  className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                  <a  style={{ style, bgColor }} href="#projects" className="font-medium text-gray-700 hover:text-gray-900">
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                  <a style={{ style }} href="#projects" className="font-medium text-gray-700 hover:text-gray-900">
                     Projects
                   </a>
 
@@ -66,16 +66,13 @@ function Hero() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:-inset-y-0 lg:-right-6 ">
-        <img className="h-full w-90 object-cover " src={Me} alt="" />
+      <div className="lg:absolute lg:-inset-y-0 lg:-right-5 ">
+        <img className="h-full w-auto object-cover " src={Me} alt="" />
       </div>
     </div>
   );
 }
 
-const bgColor = {
-  "background-color": "#f9f9f9",
-};
 const style = {
   textShadow: "2px 4px 3px rgba(0,0,0,0.3)",
   "background-color": "#f9f9f9",
