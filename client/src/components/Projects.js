@@ -4,7 +4,7 @@ import { projects } from "../assets/projects.json";
 
 function Projects() {
   return (
-    <div className="flex flex-col pt-52 pb-20  ">
+    <div className="flex flex-col pt-20 pb-16  ">
       <h1  style={{ "textShadow": "2px 4px 3px rgba(0,0,0,0.3)" }} className="ml-28 mb-16 py-10 justify-center text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
         <span id="projects"  className="block text-indigo-400 xl:inline">
           My Projects

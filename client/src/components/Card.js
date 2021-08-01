@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ img, projectName, projectDescription, liveSite, github }) {
   return (
-    <div style={{style}} className="inline-block my-4 flex flex-col w-min h-96 space-x-2 after:inline-block after:pseudo-content-comma after:shadow-2xl rounded-t-lg overflow-hidden mx-auto">
+    <div style={{style}} className="inline-block  flex flex-col w-min h-90 space-x-2 after:inline-block after:pseudo-content-comma after:shadow-2xl rounded-t-lg overflow-hidden mx-auto">
       <div className="card rounded-2xl p-6 flex flex-col min-w-sm border border-gray-700 bg-gray-600 text-gray-50 justify-center items-center  transition-shadow shadow-xl hover:shadow-xl min-w-max">
         <div className="card__media">
           <img src={img} className="rounded-2xl mb-2 h-48 w-96" alt="project" />
