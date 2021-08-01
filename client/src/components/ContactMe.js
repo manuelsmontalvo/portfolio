@@ -18,7 +18,7 @@ export default function ContactMe() {
 
   return (
     <div className="">
-    <h1 style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.3)" }} className="pt-52 ml-28 mb-10 py-10 justify-center text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+    <h1 style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.3)" }} className="pt-52 ml-28 mb-16 py-10 justify-center text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
       <span id="projects" className="block text-indigo-400 xl:inline">
         Contact Me
       </span>
