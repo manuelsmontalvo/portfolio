@@ -74,7 +74,7 @@ function Hero() {
 }
 
 const style = {
-  "text-shadow": "2px 4px 3px rgba(0,0,0,0.3)",
+  "textShadow": "2px 4px 3px rgba(0,0,0,0.3)",
 };
 
 export default Hero;
