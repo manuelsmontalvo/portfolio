@@ -29,16 +29,16 @@ function Hero() {
                   </div>
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                  <a style={{ style }} href="#projects" className="font-medium text-gray-700 hover:text-gray-900">
+                  <a style={{ "textShadow": "2px 4px 3px rgba(0,0,0,0.3)" }} href="#projects" className="font-medium text-gray-700 hover:text-gray-900">
                     Projects
                   </a>
 
-                  <a style={{ style }} href="#contact-me" className="font-medium text-gray-700 hover:text-gray-900">
+                  <a style={{ "textShadow": "2px 4px 3px rgba(0,0,0,0.3)" }} href="#contact-me" className="font-medium text-gray-700 hover:text-gray-900">
                     Contact Me
                   </a>
 
                   <a
-                    style={{ style }}
+                    style={{ "textShadow": "2px 4px 3px rgba(0,0,0,0.3)" }}
                     href="https://docs.google.com/document/d/1-VeBAFBj2W-G0Yzb94IWq2o9lFx_h35IJHeKzUYjlBk/edit?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
@@ -53,12 +53,12 @@ function Hero() {
 
           <main className="mt-10  mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 style={{ style }} className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 style={{ "textShadow": "2px 4px 3px rgba(0,0,0,0.3)" }} className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-gray-700 xl:inline">Manuel Montalvo</span>
                 <br />
                 <span className="block text-indigo-400 xl:inline">Software Engineer</span>
               </h1>
-              <p style={{ style }} className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p style={{ "textShadow": "2px 2px 2px rgba(0,0,0,0.3)" }} className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 I'm an enthusiastic and determined problem solver who strives to put nothing but my best into every endeavor I'm involved in. I desire to develop unique solutions based on strategic
                 planning and my proven ingenuity.
               </p>
@@ -73,9 +73,6 @@ function Hero() {
   );
 }
 
-const style = {
-  textShadow: "2px 4px 3px rgba(0,0,0,0.3)",
-  "background-color": "#f9f9f9",
-};
+
 
 export default Hero;
