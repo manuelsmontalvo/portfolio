@@ -31,7 +31,7 @@ export default function ContactMe() {
                 Name
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="bg-indigo-200 border-indigo-400 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 name="user_name"
                 id="grid-last-name"
                 type="text"
@@ -45,7 +45,7 @@ export default function ContactMe() {
               </label>
               <input
               name="user_email"
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="bg-indigo-200 border-indigo-400 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
                 type="email"
               />
@@ -60,14 +60,14 @@ export default function ContactMe() {
             <textarea
               type="email"
               name="message"
-              className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+              className="bg-indigo-200 border-indigo-400 no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
               id="message"
             ></textarea>
           </div>
         </div>
         <div className="item-center justify-center mt-4 flex w-full">
           <div className="item-center justify-center  flex w-full md:w-1/3">
-            <button type="submit" value="Send" className="shadow bg-indigo-400 mb-16 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+            <button type="submit" value="Send" className="shadow bg-indigo-400 mb-16 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
               Send
             </button>
           </div>
